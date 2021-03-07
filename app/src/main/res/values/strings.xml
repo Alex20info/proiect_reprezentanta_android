@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Reprezentanta_BMW</string>
+    <string name="informare">Oferta pentru test drive este valabila doar pentru prsoanele ce au minim 2 ani de exeperienta in categoria B!</string>
+    <string name="modele_disponibile_dealer">Modele disponibile dealer:</string>
+    <string name="informare2">Aceste modele sunt disponibile atat pentru achizitionare, cat si pentru test-drive</string>
+</resources>

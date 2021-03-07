@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/dashboard_item_5_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/BMW_start"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="#1589FF"
+                android:fontFamily="casual"
+                android:scrollbarStyle="insideOverlay"
+                android:text="BMW-plăcerea de a conduce"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="19dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:id="@+id/background_reprez"
+                    android:layout_width="match_parent"
+                    android:layout_height="235dp"
+                    android:background="@drawable/background_reprezentata"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/t1_gol"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp">
+
+            </TextView>
+
+            <Button
+
+                android:id="@+id/test_drive"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#306EFF"
+                android:drawableTint="#FFF"
+                android:fontFamily="monospace"
+                android:scrollbars="vertical"
+                android:text="Programează un test drive ! "
+                android:gravity="center"
+                android:textColor="#000"
+                android:textSize="20dp">
+
+            </Button>
+
+            <TextView
+                android:id="@+id/t2_gol"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp">
+
+            </TextView>
+
+            <Button
+
+                android:id="@+id/modele"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#1F45FC"
+                android:fontFamily="sans-serif-condensed"
+                android:scrollbars="vertical"
+                android:text="Modele disponibile "
+                android:textColor="#000"
+                android:gravity="center"
+                android:textSize="20dp">
+
+            </Button>
+
+            <TextView
+                android:id="@+id/t3_gol"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp">
+
+            </TextView>
+
+            <Button
+
+                android:id="@+id/dealeri"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#3BB9FF"
+                android:fontFamily="sans-serif-condensed-light"
+                android:scrollbars="vertical"
+                android:text="Dealeri disponibili "
+                android:textColor="#000"
+                android:gravity="center"
+                android:textSize="20dp">
+
+            </Button>
+
+            <TextView
+                android:id="@+id/t4_gol"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/logo3"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:background="@drawable/background_reprezentata">
+
+            </ImageView>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>

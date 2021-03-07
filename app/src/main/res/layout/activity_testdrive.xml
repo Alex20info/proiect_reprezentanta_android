@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logo2"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ModeleDispActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@drawable/dashboard_item_5_background"
+           android:orientation="vertical"
+           android:paddingTop="15dp"
+           android:paddingBottom="15dp">
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="12dp"
+               android:layout_marginEnd="12dp"
+               android:fontFamily="casual"
+               android:gravity="center"
+               android:text="Preogrameaza un test drive!"
+               android:textColor="#C11B17"
+               android:textSize="22sp"
+               android:textStyle="bold">
+
+           </TextView>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="40dp"
+               android:layout_marginTop="5dp"
+               android:layout_marginEnd="40dp"
+               android:fontFamily="sans-serif-condensed"
+               android:gravity="center"
+               android:text="@string/informare"
+               android:textColor="@color/colorLightText"
+               android:textSize="19sp"/>
+
+       </LinearLayout>
+
+   </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "Proiect-reprezentata_BMW"
