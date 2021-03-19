@@ -1,22 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:background="@drawable/dashboard_item_5_background"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:orientation="vertical">
 
     <ScrollView
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        tools:ignore="MissingConstraints">
+        android:layout_height="fill_parent">
 
         <LinearLayout
             android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <TextView
@@ -26,10 +21,10 @@
                 android:background="#1589FF"
                 android:fontFamily="casual"
                 android:scrollbarStyle="insideOverlay"
-                android:text="BMW-plăcerea de a conduce"
+                android:text="@string/bmw_pl_cerea_de_a_conduce"
                 android:textAlignment="center"
                 android:textColor="#000"
-                android:textSize="19dp"
+                android:textSize="19sp"
                 android:textStyle="bold">
 
             </TextView>
@@ -68,10 +63,10 @@
                 android:drawableTint="#FFF"
                 android:fontFamily="monospace"
                 android:scrollbars="vertical"
-                android:text="Programează un test drive ! "
+                android:text="@string/programeaz_un_test_drive"
                 android:gravity="center"
                 android:textColor="#000"
-                android:textSize="20dp">
+                android:textSize="20sp">
 
             </Button>
 
@@ -90,10 +85,10 @@
                 android:background="#1F45FC"
                 android:fontFamily="sans-serif-condensed"
                 android:scrollbars="vertical"
-                android:text="Modele disponibile "
+                android:text="@string/modele_disponibile"
                 android:textColor="#000"
                 android:gravity="center"
-                android:textSize="20dp">
+                android:textSize="20sp">
 
             </Button>
 
@@ -112,10 +107,10 @@
                 android:background="#3BB9FF"
                 android:fontFamily="sans-serif-condensed-light"
                 android:scrollbars="vertical"
-                android:text="Dealeri disponibili "
+                android:text="@string/dealeri_disponibili"
                 android:textColor="#000"
                 android:gravity="center"
-                android:textSize="20dp">
+                android:textSize="20sp">
 
             </Button>
 
@@ -130,7 +125,8 @@
                 android:id="@+id/logo3"
                 android:layout_width="match_parent"
                 android:layout_height="210dp"
-                android:background="@drawable/background_reprezentata">
+                android:background="@drawable/background_reprezentata"
+                android:contentDescription="@string/todo">
 
             </ImageView>
 
